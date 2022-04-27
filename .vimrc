@@ -7,12 +7,12 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'   " required
 
 " Install plugins
-Plugin 'git://github.com/cwoac/nvim.git'
-Plugin 'git://github.com/scrooloose/nerdcommenter.git'
-Plugin 'git://github.com/joonty/vdebug.git'
-Plugin 'git://github.com/vim-scripts/dbext.vim.git'
-Plugin 'git://github.com/vim-scripts/DBGp-Remote-Debugger-Interface.git'
-Plugin 'git://github.com/vim-scripts/taglist.vim.git'
+Plugin 'cwoac/nvim'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'joonty/vdebug'
+Plugin 'vim-scripts/dbext.vim'
+Plugin 'vim-scripts/DBGp-Remote-Debugger-Interface'
+Plugin 'vim-scripts/taglist.vim'
 Plugin 'godlygeek/tabular'
 Plugin 'MattesGroeger/vim-bookmarks'
 
