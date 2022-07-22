@@ -16,7 +16,7 @@ set makeprg=php\ -l\ %
 nnoremap ,f :!find -name '*.php' -exec fgrep -Hn <cword> {} \;<CR>
 
 " Execute script via CLI
-nnoremap ,r :!php %<CR>
+" nnoremap ,r :!php %<CR>
 
 " Perform codecheck
 nnoremap ,v :!phpcs %<CR>

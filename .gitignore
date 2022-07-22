@@ -1,2 +1,4 @@
+.gitmodules
 .vim/bundle
+.vim/bundle/*
 .vim/.netrwhist

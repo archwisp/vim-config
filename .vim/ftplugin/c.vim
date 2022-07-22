@@ -11,4 +11,4 @@ nnoremap ,t :!ctags --options=$HOME/.vim/ctags-options --languages=C,C++ -f .cta
 " set makeprg=gcc\ -g\ -O2\ %\ -o\ %:r
 set makeprg=gcc\ -ggdb\ %\ -o\ %:r
 
-nnoremap ,r :new <bar> :r!fgrep -Rn <C-r><C-w> . --exclude .ctags --exclude .git --exclude .vim-bookmarks --exclude *.swp<CR>
+" nnoremap ,r :new <bar> :r!fgrep -Rn <C-r><C-w> . --exclude .ctags --exclude .git --exclude .vim-bookmarks --exclude *.swp<CR>

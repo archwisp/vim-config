@@ -8,4 +8,4 @@ set tags=.rubytags
 nnoremap ,t :!ctags --options=$HOME/.vim/ctags-options --languages=Ruby -f .rubytags<CR>
 
 " Execute script via CLI
-nnoremap ,r :!ruby %<CR>
+" nnoremap ,r :!ruby %<CR>

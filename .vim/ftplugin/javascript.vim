@@ -11,4 +11,4 @@ nnoremap ,t :!ctags --options=$HOME/.vim/ctags-options --languages=JavaScript -f
 " nnoremap ,r :!rhino %<CR>
 
 " Find references
-nnoremap ,r :new <bar> :r!fgrep -Rn <C-r><C-w> . --exclude .jstags --exclude .git --exclude .vim-bookmarks <CR>
+" nnoremap ,r :new <bar> :r!fgrep -Rn <C-r><C-w> . --exclude .jstags --exclude .git --exclude .vim-bookmarks <CR>
